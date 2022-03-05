@@ -21,7 +21,7 @@
       </div>
     </div>
     <div class="mx-auto max-w-screen-xl">
-      <HelloWorld msg=""></HelloWorld>
+      <HelloWorld msg="hello"></HelloWorld>
     </div>
   </div>
 </template>

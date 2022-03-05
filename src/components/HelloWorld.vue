@@ -3,9 +3,8 @@
     <h2 class="!mt-0">{{ props.msg }}</h2>
     <button
       class="px-3 py-2 bg-white border border-gray-300 rounded-md shadow"
-      @click="counter.increment"
-    >count is: {{ counter.count }}</button>
-    also used as dynamic route
+      @click="inc()"
+    >count is: {{ count }}</button>
     <p>
       Edit
       <code>src/components/HelloWorld.vue</code> to test hot module
@@ -15,15 +14,9 @@
 </template>
 
 <script setup lang="ts">
-import { useCounterStore } from '@/stores/counter'
+import { useCounter } from '@vueuse/core'
 
-import { useIntervalFn } from '@vueuse/core'
-
-const counter = useCounterStore()
-
-useIntervalFn(() => {
-  counter.increment()
-}, 1000)
+const { count, inc } = useCounter(0)
 
 const props = defineProps<{
   msg: string
