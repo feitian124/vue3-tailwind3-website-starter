@@ -8,8 +8,7 @@ This template is **practical** and **batteries included** but not overly complex
 
 Includes plenty of **examples and documentation** of how to do things but **minimal cruft** to delete to get you going.
 
-Please [check out the demo](vue3-tailwind3-website-starter
-) for example. A [detailed changelog](./CHANGES.md) is available.
+Please check out the [demo](https://vue3-tailwind3-website-starter.vercel.app/) for example. A [detailed changelog](./CHANGES.md) is available.
 ## Features
 
 - Vue 3.2, Vite2, TypeScript
@@ -45,7 +44,7 @@ Please [check out the demo](vue3-tailwind3-website-starter
   - Automated component tests
 - GitLab CI
   - Automated e2e tests
-  - Automated component tests 
+  - Automated component tests
 
 ## Thanks
 

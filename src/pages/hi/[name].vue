@@ -5,7 +5,7 @@
     >
       <h2
         class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10"
-      >{{ t('intro.hi', { name: props.name }) }}(from url) ~ i18n and {{ t('intro.dynamic-route') }}</h2>
+      >{{ t('intro.hi', { name: props.name }) }}</h2>
       <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
         <div class="inline-flex rounded-md shadow">
           <router-link
@@ -15,6 +15,19 @@
         </div>
         <ButtonRepo />
       </div>
+    </div>
+    <div class="mx-auto max-w-screen-xl">
+      <ul class="list-disc">
+        <li>
+          the route is nested and dynamic:
+          <code>/hi/{{ props.name }}</code>, click the menu multi times to see change
+        </li>
+        <li>uses i18n: {{ t('intro.dynamic-route') }}</li>
+        <li>
+          see
+          <code>src/pages/hi/[name].vue</code>
+        </li>
+      </ul>
     </div>
   </div>
 </template>

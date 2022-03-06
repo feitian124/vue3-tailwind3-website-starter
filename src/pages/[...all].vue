@@ -16,5 +16,14 @@
         <ButtonRepo />
       </div>
     </div>
+    <div class="mx-auto max-w-screen-xl">
+      <ul class="list-disc">
+        <li>if a route does not exsit, this is the page to catch all</li>
+        <li>
+          see
+          <code>src/pages/[...all].vue</code>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>

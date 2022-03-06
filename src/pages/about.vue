@@ -16,6 +16,19 @@
         <ButtonRepo />
       </div>
     </div>
+    <div class="mx-auto max-w-screen-xl">
+      <ul class="list-disc">
+        <li>
+          use another layout, see
+          <code>src/layouts/about.vue</code>
+        </li>
+        <li>use predefined and fully typed global variables</li>
+        <li>
+          see
+          <code>src/pages/about.vue</code>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 

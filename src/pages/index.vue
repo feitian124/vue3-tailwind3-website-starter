@@ -20,8 +20,19 @@
         <ButtonRepo />
       </div>
     </div>
+
     <div class="mx-auto max-w-screen-xl">
-      <HelloWorld msg="hello"></HelloWorld>
+      <ul class="list-disc">
+        <li>the best of both sides: vue3 and tailwind3</li>
+        <li>nice and simpe start template for any website, with batteries included</li>
+        <li>
+          <HelloWorld msg=""></HelloWorld>
+        </li>
+        <li>
+          see
+          <code>src/pages/index.vue</code>
+        </li>
+      </ul>
     </div>
   </div>
 </template>
