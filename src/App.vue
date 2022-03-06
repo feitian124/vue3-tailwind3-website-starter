@@ -5,9 +5,9 @@ import { useHead } from '@vueuse/head'
 // you can use this to manipulate the document head in any components,
 // they will be rendered correctly in the html results with vite-ssg
 useHead({
-  title: 'TOP开发者社区',
+  title: 'vue3-tailwind3-website-starter',
   meta: [
-    { name: 'description', content: 'TOP开发者社区' },
+    { name: 'description', content: 'vue3-tailwind3-website-starter' },
   ],
 })
 </script>
