@@ -22,7 +22,7 @@
           use another layout, see
           <code>src/layouts/about.vue</code>
         </li>
-        <li>use predefined and fully typed global variables</li>
+        <li>use predefined and fully typed global variables, see the bottom line of this page</li>
         <li>
           see
           <code>src/pages/about.vue</code>
