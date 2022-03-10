@@ -49,4 +49,4 @@ Please check out the [demo](https://vue3-tailwind3-website-starter.vercel.app/) 
 ## Thanks
 
 - [vitesse](https://github.com/antfu/vitesse)
-- [vue3-tailwind3-website-starter](https://github.com/Uninen/vite-ts-tailwind-starter)
+- [vite-ts-tailwind-starter](https://github.com/Uninen/vite-ts-tailwind-starter)
