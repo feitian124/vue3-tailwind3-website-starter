@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "config:base",
+    "group:all",
+    "schedule:weekly"
+  ],
+  "packageRules": [
+    {
+      "updateTypes": [
+        "patch"
+      ],
+      "enabled": false
+    },
+    {
+      "matchPackagePatterns": [
+        "*"
+      ],
+      "rangeStrategy": "replace"
+    }
+  ],
+  "timezone": "Europe/Helsinki",
+  "dependencyDashboard": false
+}

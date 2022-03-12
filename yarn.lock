@@ -242,7 +242,7 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@pinia/testing@^0.0.9":
+"@pinia/testing@~0.0.9":
   version "0.0.9"
   resolved "https://registry.npmmirror.com/@pinia/testing/-/testing-0.0.9.tgz#6e4f7bbca7c307988a2efa83ac2afd971e708b35"
   integrity sha512-JG+th+BENR89/7vpRxafDApU56AECZ9m+THd8IKsgomyRXaiRRdwt0BLbjStTkksnoNZfZBCz5NszykyNxz/sQ==
@@ -439,10 +439,10 @@
     "@typescript-eslint/types" "5.10.2"
     eslint-visitor-keys "^3.0.0"
 
-"@vitejs/plugin-vue@~2":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-vue-2.1.0.tgz#ddf5e0059f84f2ff649afc25ce5a59211e670542"
-  integrity sha512-AZ78WxvFMYd8JmM/GBV6a6SGGTU0GgN/0/4T+FnMMsLzFEzTeAUwuraapy50ifHZsC+G5SvWs86bvaCPTneFlA==
+"@vitejs/plugin-vue@~2.2.4":
+  version "2.2.4"
+  resolved "https://registry.npmmirror.com/@vitejs/plugin-vue/-/plugin-vue-2.2.4.tgz#ab8b199ca82496b05d2654c5f34ffcf9b947243d"
+  integrity sha512-ev9AOlp0ljCaDkFZF3JwC/pD2N4Hh+r5srl5JHM6BKg5+99jiiK0rE/XaRs3pVm1wzyKkjUy/StBSoXX5fFzcw==
 
 "@vue/compiler-core@3.2.30":
   version "3.2.30"
@@ -3706,7 +3706,7 @@ vite@~2.7:
   optionalDependencies:
     fsevents "~2.3.2"
 
-vitest@^0.6.0:
+vitest@~0.6.0:
   version "0.6.0"
   resolved "https://registry.npmmirror.com/vitest/-/vitest-0.6.0.tgz#297e4bb1b69e797bce5f7af8a62c92b568dfbfd5"
   integrity sha512-FuIkLHCQxz6rO35MQROUtVdwcBaYnt198YpPGIrJXmuNHGolfPbrZIiwpD7bek0OiETxuphK3+KR5oJ5Qi1g5A==
