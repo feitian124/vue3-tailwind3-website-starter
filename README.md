@@ -27,7 +27,7 @@ Please check out the [demo](https://vue3-tailwind3-website-starter.vercel.app/) 
   - `@tailwindcss/forms`
   - `firefox`-variant
   - `daisyui`
-- PostCSS 8 w/ `postcss-nesting` plugin
+- PostCSS 8 w/ `postcss-nesting` plugin and `cssnano` for minimizing production CSS
 - Eslint
 - Prettier
 - Alias `@` to `<project_root>/src`
