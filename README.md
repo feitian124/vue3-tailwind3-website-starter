@@ -1,6 +1,6 @@
 # vue3-tailwind3-website-starter
 
-A nice and simpe website start template using awesome things related to vue3 and tailwind3.
+A nice and simple website start template using awesome things related to vue3 and tailwind3.
 
 ![screenshot](src/assets/screenshot.png)
 
