@@ -1,6 +1,18 @@
 {
   "name": "vue3-tailwind3-website-starter",
+  "description": "a nice website start template use awesome things related to vue3 and tailwind3",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/feitian124/vue3-tailwind3-website-starter.git"
+  },
+  "keywords": [],
+  "author": "feitian124 <feitian124.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/feitian124/vue3-tailwind3-website-starter/issues"
+  },
+  "homepage": "https://github.com/feitian124/vue3-tailwind3-website-starter",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
